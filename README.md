@@ -1,6 +1,8 @@
 # Masked Autoencoders that Listen :
-Masked Autoencoders that Listen
+This repo is Unofficial implementation of paper [Masked Autoencoders that Listen](https://arxiv.org/abs/2207.06405). Audio-MAE first encodes audio spectrogram patches with a high masking ratio, feeding only the non-masked tokens through encoder layers. The decoder then re-orders and decodes the encoded context padded with mask tokens, in order to reconstruct the input spectrogram.
+![](mae.PNG)
 
+* Most of the code borrowed from repos mentioned in reference section below.
 ## Citation:
 ```
 @misc{https://doi.org/10.48550/arxiv.2207.06405,
